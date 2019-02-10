@@ -1,5 +1,6 @@
- body { 
-   background-image: url("../Img/lluvia-bosque.gif"); 
+  
+ body  { 
+   background-image: url("../Img/lluvia-bosque.gif");  
    background-repeat: no-repeat;
    width: 100%;
    background-size: 100% 90vh;
@@ -24,7 +25,7 @@ p {
   color: #26a69a;
 }
 .parallax-container {
-  min-height: 555px;
+  min-height: 625px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -61,9 +62,7 @@ footer.page-footer {
 .container {
   max-width: unset; 
 }
-#navPrincipal{
-  height: 75px;
-}
+
 #tema{
   padding-top:  64px;;
   padding-right: 65%;
@@ -92,3 +91,7 @@ footer.page-footer {
   margin: 0px;
   padding: 15%;
 }
+
+nav img{
+  height: 100% !important;
+} 
