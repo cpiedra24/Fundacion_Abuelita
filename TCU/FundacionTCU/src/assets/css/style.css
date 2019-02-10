@@ -1,9 +1,9 @@
   
  body  { 
-   background-image: url("../Img/lluvia-bosque.gif");  
+   background-image: url("../Img/background-blanco-degradado-12.jpg");  
    background-repeat: no-repeat;
    width: 100%;
-   background-size: 100% 90vh;
+   /* background-size: 100% 90vh; */
    background-attachment: fixed;
 }
 #segundoDiv{
