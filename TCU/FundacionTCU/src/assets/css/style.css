@@ -6,92 +6,25 @@
    /* background-size: 100% 90vh; */
    background-attachment: fixed;
 }
-#segundoDiv{
-    width: 100%;
-    height: 1000px;
-    background-color: white;
-} 
-#segundoDiv{
-  background: url("../Img/principal.gif")no-repeat;
-}
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-p {
-  line-height: 2rem;
-}
-.sidenav-trigger {
-  color: #26a69a;
-}
-.parallax-container {
-  min-height: 625px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
- .parallax-container .section {
-  width: 100%;
-}
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-}
- #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-.container {
-  max-width: unset; 
-}
-
-#tema{
-  padding-top:  64px;;
-  padding-right: 65%;
-}
-#info{
-  padding-top: 4px;
-  padding-right: 53%;
-}
-#pregunta{
-  padding-left: 65%;
-  margin-top: -30%;
-}
-#donar{
-  padding-left: 62%;
-  position: relative;
-}
-#video{
-  padding-left: 58%;
-  padding-top: 0%;
-}
-#iDdonar{
-  margin: 0px;
-  padding: 126px;
-}
-#iDvideo{
-  margin: 0px;
-  padding: 15%;
-}
-
 nav img{
   height: 100% !important;
 } 
+#imgLogo{
+  display:block;
+  margin:auto;
+  margin-top: 55px;
+}
+#imgabuela, #imgaFerr, #imgalau{
+  width: 100px;
+  text-align: center;
+}
+#imgabuela p,#imgaFerr p,#imgalau p {
+  margin-top: 0;
+  font-size: 20px;
+}
+#imgabuela img,#imgaFerr img, #imgalau img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
