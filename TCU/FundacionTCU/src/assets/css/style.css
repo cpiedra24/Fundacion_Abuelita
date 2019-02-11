@@ -28,3 +28,7 @@ nav img{
   border-radius: 100%;
   overflow: hidden;
 }
+#imgCard{
+  width: 350px; 
+  height: 350px;
+}
