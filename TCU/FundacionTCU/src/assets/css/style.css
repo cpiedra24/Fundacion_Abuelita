@@ -3,7 +3,6 @@
    background-image: url("../Img/background-blanco-degradado-12.jpg");  
    background-repeat: no-repeat;
    width: 100%;
-   /* background-size: 100% 90vh; */
    background-attachment: fixed;
 }
 nav img{
@@ -32,3 +31,32 @@ nav img{
   width: 350px; 
   height: 350px;
 }
+._2p3a{
+  width: 480px !important;
+}
+.uiScaledImageContainer _2zfr{
+  width: 480px !important;
+}
+#videocard{
+width: 350px; 
+height: 463px ;
+}
+.video-container{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 355px;
+  overflow: hidden;
+}
+/* #facebook, #u_0_4{
+  max-height: 369px;
+  border-bottom-width: 0.989583px;
+  width: 470px;
+}
+#facebook, #u_0_1{
+  height: 130px;
+  width: 473px;
+}
+#facebook, .uiScaledImageContainer _2zfr{
+  width: 472px;
+  height: 175px;
+} */
