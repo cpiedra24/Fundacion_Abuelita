@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="col s12 m7">
+        <h2 class="header">Reforestando a Ciuda Quesada </h2>
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src="/src/assets/Img/pro.jpg">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <p>Proyecto Reforestando a iuda Quesada es una ..............</p>
+                </div>
+                <div class="card-action">
+                    <button class="waves-effect waves-light btn modal-trigger" href="#infoContacto">Modal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="infoContacto" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>Datos importantes para colaborar en el proyecto.</h4>
+        <form name="contact">
+
+            <div class="rown">
+                <input name="Nombre" type="text" placeholder="Nombre">
+            </div>
+            <div class="rown">
+                <input name="Correo" type="email" placeholder="Correo" required>
+            </div>
+            <div class="rown">
+                <input name="Proyecto" type="text" disabled placeholder="Reforestando Ciudad Quesada">
+            </div>
+
+            <button type="submit" (click)="participarProyecto();"> Send </button>
+        </form>
+    </div>
+</div>

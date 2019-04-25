@@ -5,6 +5,7 @@ import { InfoComponent } from './info/info.component';
 import { VideoComponent } from './video/video.component';
 import { AppRoutingModule } from './app-routing.module';
 import { InicioComponent } from './inicio/inicio.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { InicioComponent } from './inicio/inicio.component';
     AppComponent,
     InfoComponent,
     VideoComponent,
-    InicioComponent
+    InicioComponent,
+    ProyectosComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
